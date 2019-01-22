@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		dagen
+	</title>
+</head>
+<body>
+	<p>alle dagen </p>
+	<p1 id="dagen"></p1>
+
+     <p>werkdagen </p>
+	<p1 id="werkdag"></p1>
+
+	<p>weekend </p>
+	<p1 id="weekend"></p1>
+
+
+	<p>alle dagen omgedraaid </p>
+	<p1 id="dagen2"></p1>
+
+     <p>werkdagen omgedraaid </p>
+	<p1 id="werkdag2"></p1>
+
+	<p>weekend omgedraaid </p>
+	<p1 id="weekend2"></p1>
+
+
+<img src="img/wanted.jpg" alt="wanted">
+
+	<script type="text/javascript">
+var dagen = ["maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag","zondag"];
+
+dagen[0] = "maandag";
+document.getElementById("dagen").innerHTML = dagen
+
+dagen[0] = "maandag";
+document.getElementById("werkdag").innerHTML = dagen.splice(0,5);
+
+dagen[0] = "zaterdag";
+document.getElementById("weekend").innerHTML = dagen.splice(0,2);
+
+// omgedraaid
+dagen[0] = "maandag";
+document.getElementById("dagen2").innerHTML = dagen
+
+dagen[0] = "maandag";
+document.getElementById("werkdag2").innerHTML = dagen.splice(0,5);
+
+dagen[0] = "zaterdag";
+document.getElementById("weekend2").innerHTML = dagen.splice(0,2);
+
+
+
+	</script>
+
+<style type="text/css">
+p{
+
+	color: blue
+}
+</style>
+
+</body>
+</html>

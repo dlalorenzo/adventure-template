@@ -1,1 +1,1 @@
-adventure-template
+adventure game

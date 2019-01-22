@@ -1,0 +1,82 @@
+body{
+	background-image: url(../img/luffy.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+#title{
+	margin-top: 100px;
+	margin-left: 600px;
+	font-size: 50px;
+}
+#description{
+	margin-left: 600px;
+	font-size: 25px;
+}
+
+#but1{
+	position: absolute;
+	display: none;
+	margin-top: 60px;
+	font-size: 20px; 
+	margin-left: 600px;
+}	
+#but2{
+	position: absolute;
+	display: none;
+	margin-top: 30px;
+	font-size: 20px; 
+	margin-left: 300px;
+	width: 800px;
+}
+#but3{
+	position: absolute;
+	display: none;
+	margin-left: 300px;
+	font-size: 20px; 
+	width: 800px;
+
+}
+#game-buttons{
+	margin-left: 100px;
+	margin-top: 300px;
+	display: block;
+	width: 40px;
+	font-size: 20px;
+
+}
+#button1{
+	font-size: 20px;
+}
+#button2{
+	font-size: 20px;
+}
+#button3{
+	font-size: 20px;
+}
+
+#dead{
+	position: absolute;
+	width:100%;
+	height:100%;
+	float: 
+}
+#Crew{
+	border:solid red;
+	position: absolute;
+	top:150px;
+	right: 200px;
+}
+#ZoroTekst{
+	border: solid red;
+}
+#zoroWanted{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 0;
+	right: 0;
+
+
+}
